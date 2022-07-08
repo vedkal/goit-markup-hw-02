@@ -1,0 +1,52 @@
+body {
+    font-family: Roboto;
+
+}
+
+.social-link .link {
+    color: #212121;
+}
+
+.social-link .link:hover,
+.social-link .link:focus {
+    color: orange;
+}
+
+.social-link .link:active {
+    color: red;
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 30.52px;
+    letter-spacing: 3%;
+    color: #000000;
+    color: #2196F3;
+}
+
+.zamów-usługe {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+
+}
+
+.Nasz-zespół {
+    background-color: #F5F4FA;
+}
+
+
+.telefon {
+    color: #757575;
+}
+
+/* portfolio */
+
+.przyczisk {
+    color: #f321d7;
+}
