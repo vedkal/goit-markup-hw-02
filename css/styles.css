@@ -16,6 +16,14 @@ body {
     color: red;
 }
 
+.agencia {
+    cursor: cell;
+}
+
+.Kontakt {
+    cursor: context-menu;
+}
+
 .logo {
     font-family: Raleway;
     font-size: 26px;
