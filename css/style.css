@@ -1,0 +1,43 @@
+span {
+    color: #2196F3;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link_studio {
+    cursor: none;
+}
+
+.social-links {
+    list-style: none;
+}
+
+.social-links .link:hover {
+    color: #2196F3;
+}
+
+.link {
+    cursor: progress;
+}
+
+.Portfolio button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.Order_the_service button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.link_link {
+    color: #757575;
+}
+
+.link_link:hover {
+    color: #2196F3;
+    cursor: cell;
+}
