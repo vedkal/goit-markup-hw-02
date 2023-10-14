@@ -7,74 +7,92 @@
     <title>index.html</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@300;400;900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800;900&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!--Web Studio-->
-   <header>
+   <header class="section-nav">
         <nav>
-            <h3>WebStudio</h3>
-            <menu>
-               <li><a href="">Studio </a></li>
-               <li><a href="portfolio.html">Portfolio</a></li>
-               <li><a href="">Contacts</a></li>
-            </menu>
-            <address>   
-                <a href="meilto:info@devstudio.com">info@devstudio.com</a>
-                <a href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
-            </address>
+            <a class="logo-nav" href="./index.html"><span class="studio-nav">Web</span>Studio</a>
+            <ul>
+               <li><a class="Studio-nav" href="">Studio </a></li>
+               <li><a class="Studio-nav" href="./portfolio.html">Portfolio</a></li>
+               <li><a class="Studio-nav" href="./contact">Contacts</a></li>
+            </ul>
         </nav>
+        <address>   
+            <a class="address-nav" href="meilto:info@devstudio.com">info@devstudio.com</a>
+            <a class="address-nav" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
+        </address>
    </header> 
    <main>
-       <!--Order the service-->
-       <section>
-           <h1>Effective Solutions for Your Business</h1>
-           <button>Order Service</button>
+       <!--Order Service-->
+       <section class="section-order-service">
+           <h1 class="order-service-title">Effective Solutions for Your Business</h1>
+           <button class="order-service-button">Order Service</button>
        </section>
-       <!--LOREM IPSUM-->
-       <section>
-           <h4>Strategy</h4>
-           <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-           <h4>Punctuality </h4>
-           <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-           <h4>Diligence </h4>
-           <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>           
-           <h4>Technologies</h4>
-           <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+       <!--description-->
+       <section class="section-description">
+           <h4 class="description-title">Strategy</h4>
+           <p class="description-of-work">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+           <h4 class="description-title">Punctuality </h4>
+           <p class="description-of-work">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+           <h4 class="description-title">Diligence </h4>
+           <p class="description-of-work">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>           
+           <h4 class="description-title">Technologies</h4>
+           <p class="description-of-work">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
        </section>
-       <!--What we do-->
+       <!--What are we doing-->
        <section>
-           <h2>What are we doing</h2>
-           <img src="./img/computer-screen.jpg" alt="computer screen" width="360" height="300">
-           <img src="./img/smartfone.jpg" alt="smartfone" width="360" height="300">
-           <img src="./img/smatfone-screen.jpg" alt="smatfone screen" width="360" height="300">
+            <div>
+                <h2 class="what-are-we-doing-title">What are we doing</h2>
+                <img class="" src="./img/computer-screen.jpg" alt="computer screen" width="360" height="300">
+                <img class="" src="./img/smartfone.jpg" alt="smartfone" width="360" height="300">
+                <img class="" src="./img/smatfone-screen.jpg" alt="smatfone screen" width="360" height="300">
+            </div>
        </section>
        <!--Our team-->
-       <section>
-            <h2>Our Team</h2>
-            <img src="./img/Mark-Guerrero.jpg" alt="Product Designer" width="264" height="260">
-            <h4>Mark Guerrero</h4>
-            <p>Product Designer</p>
-            <img src="./img/Tom-Ford.jpg" alt="Frontend Developer" width="264" height="260">
-            <h4>Tom Ford</h4>
-            <p>Frontend Developer</p>
-            <img src="./img/Camila-Garcia.jpg" alt="Marketing" width="264" height="260">
-            <h4>Camila Garcia</h4>
-            <p>Marketing</p>
-            <img src="./img/Daniel-Wilson.jpg" alt="UI Designer" width="264" height="260">
-            <h4>Daniel Wilson </h4>
-            <p>UI Designer</p>
+       <section class="section-our-team">
+            <h2 class="our-team-title">Our Team</h2>
+            <div>
+                <div class="our-team-foto">
+                    <img src="./img/Mark-Guerrero.jpg" alt="Product Designer" width="264" height="260">
+                    <div class="">
+                        <h4 class="our-team-name">Mark Guerrero</h4>
+                        <p class="our-team-is-working">Product Designer</p>
+                    </div>
+                </div>
+                <div class="our-team-foto">
+                    <img src="./img/Tom-Ford.jpg" alt="Frontend Developer" width="264" height="260">
+                    <div>
+                        <h4 class="our-team-name">Tom Ford</h4>
+                        <p class="our-team-is-working">Frontend Developer</p>
+                    </div>
+                </div>
+                <div class="our-team-foto">
+                    <img src="./img/Camila-Garcia.jpg" alt="Marketing" width="264" height="260">
+                    <div>
+                        <h4 class="our-team-name">Camila Garcia</h4>
+                        <p class="our-team-is-working">Marketing</p>
+                    </div>
+                </div>
+                <div class="our-team-foto">
+                    <img src="./img/Daniel-Wilson.jpg" alt="UI Designer" width="264" height="260">
+                    <div>
+                        <h4 class="our-team-name">Daniel Wilson </h4>
+                        <p class="our-team-is-working">UI Designer</p>
+                    </div>
+                </div>
+            </div>
        </section>
    </main>
-   <footer>
-       <h3>WebStudio</h3>
-       <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+<!-- adres -->
+   <footer class="section-adres">
+       <h3 class="adres-title"><span class="studio-nav">Web</span>Studio</h3>
+       <p class="address-description">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
    </footer>
 </body>
 </html>
